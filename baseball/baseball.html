@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" /> 
+    <title>야구 게임</title>
+    <link rel="stylesheet" href="baseball.css">
+</head>
+<body>
+    <h1>야구 게임
+        <button id = "start" type="text" onclick="result()">시작</button>
+        <button id = "restart" type="reset" onclick="location.reload()">다시하기</button></h1> 
+    <h2>중복되지 않은 숫자 3개를 입력하세요</h2>
+    <h4>S는 같은 단위 자리 B는 다른 단위 자리에 위치</h4>
+    <form class="inputForm">
+        <input id = "input" type="input" maxlength="3" onkeypress="if(event.keycode==13){input.submit}" onkeyup="this.value=this.value.replace(/[^1-9]/g,'');"/>
+    </form>
+    <div id="answerBox"></div>
+    <script src="baseball.js"></script>
+</body>
+</html> 
