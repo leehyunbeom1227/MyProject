@@ -39,11 +39,11 @@ h1 {
     width: 400px;
     height: 600px;
     text-align: left;
-    columns: 4;
     padding: 10px;
     font-size: 30px;
 }
 
 span{
     display: inline-block;
+    margin: 15px;
 }
