@@ -1,6 +1,17 @@
+html{
+  margin-top: 200px;
+  text-align: center;
+  font-family:'Nanum Pen Script', cursive;
+  font-size: 30px;
+}
 
 body{
  background-color: burlywood;
+}
+
+ul {
+  margin-right: 30px;
+  list-style : none;
 }
    
 .btn{
@@ -14,7 +25,7 @@ body{
 .clicked{
  color : black;
 }
-   
+
 .form,
  .greetings{
   display : none;
