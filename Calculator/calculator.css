@@ -2,7 +2,20 @@ html {
     text-align: center;
 }
 
-caption {
+#smallCalculator {
+    margin: 10px;
+    margin-top : 100px !important; 
+    border-radius: 10px;
+    background-color: #6495ED;
+    width: 210px;
+    height: 25px;
+    font-size : 15px;
+    text-align: right;
+    padding-right: 10px;
+    color:  gray;
+}
+
+#calculator {
     margin: 10px;
     border-radius: 10px;
     background-color: #6495ED;
@@ -25,15 +38,15 @@ td {
     cursor: pointer;
 }
 
-table{
+table, div{
     position: relative;
     border-collapse : separate;
     border-spacing : 10px 10px;
     left:35%;
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
-.number, #sC {
+.number, #sC, .allClear {
     background-color: black;
     color : white;
 }

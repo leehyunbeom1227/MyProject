@@ -5,31 +5,35 @@
     <title>계산기</title>
     <link rel="stylesheet" href="calculator.css">
     <table>
-        <caption id = "calculator"></caption>
+        <tr colspan = "2"><div id = "smallCalculator"></div></tr>
+        <tr colspan = "4"><div id = "calculator"></div></tr>
         <tbody>
             <tr>
-                <td class = "number" value=0 id="n0">0</td>
-                <td class = "number" value=1 id="n1">1</td>
-                <td class = "number" value=2 id="n2">2</td>
-                <td class = "sign" id="sP">+</td>
+                <td class = "number btn" value=0 id="n0">0</td>
+                <td class = "number btn" value=1 id="n1">1</td>
+                <td class = "number btn" value=2 id="n2">2</td>
+                <td class = "sign btn" id="sP">+</td>
             </tr>
             <tr>
-                <td class = "number" value=3 id="n3">3</td>
-                <td class = "number" value=4 id="n4">4</td>
-                <td class = "number" value=5 id="n5">5</td>
-                <td class = "sign" id="s-">-</td>
+                <td class = "number btn" value=3 id="n3">3</td>
+                <td class = "number btn" value=4 id="n4">4</td>
+                <td class = "number btn" value=5 id="n5">5</td>
+                <td class = "sign btn" id="s-">-</td>
             </tr>
             <tr>
-                <td class = "number" value=6 id="n6">6</td>
-                <td class = "number" value=7 id="n7">7</td>
-                <td class = "number" value=8 id="n8">8</td>
-                <td class = "sign" id="sX">*</td>
+                <td class = "number btn" value=6 id="n6">6</td>
+                <td class = "number btn" value=7 id="n7">7</td>
+                <td class = "number btn" value=8 id="n8">8</td>
+                <td class = "sign btn" id="sX">*</td>
             </tr>
             <tr>
-                <td class = "number" value="9" id="n9">9</td>
+                <td class = "number btn" value="9" id="n9">9</td>
                 <td class = "clear" id="sC">C</td>
                 <td class = "eqaul" id="sE">=</td>
-                <td class = "sign" id="s÷">÷</td>
+                <td class = "sign btn" id="s÷">/</td>
+            </tr>
+            <tr>
+                <td colspan="4" class = "allClear">AC</td>
             </tr>
         </tbody>
     </table>
