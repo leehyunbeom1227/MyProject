@@ -66,7 +66,7 @@ userSchema.methods.generateToken = function(cb){
 
     //jsonwebtoken을 이용해서 token을 생성하기
     
-   var token = jwt.sign(user._id.toHexString(), 'secrtToken');
+   var token = jwt.sign(user._id.toHexString(), 'secretToken');
 
   //  user._id + 'secrtToken' = token
   //  -> 
